@@ -3,52 +3,63 @@ import React from 'react';
 const WhyChooseUs = () => {
     return (
         <>
-            <div className="choose-us-section pt-75 pb-70">
+            <div className="service-choose-section pt-90 pb-70">
                 <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-md-6">
-                            <div className="choose-us-thumb">
-                                <img src="assets/images/choose-us/ch1.png" alt="choose-us" />
+                    <div className="row">
+                        <div className=" col-sm-12 col-md-12 col-lg-5">
+                            <div className="section-title">
+                                <h5>// WHY CHOOSE US</h5>
+                                <h3 className="text-white">Some Reason For Choose Us</h3>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className="choose-us-content-section pl-35">
-                                <div className="section-head-container">
-                                    <div className="section-head">
-                                        <h5>Why Choose Us</h5>
-                                        <h3 className="text-white">Some Of Reason For Choose </h3>
-                                        <h2 className="text-white">Our <span>IT Solutions</span></h2>
-                                        <span className="section-head-bar"></span>
-                                        <p> We provide immigration service in all over country and universities. orem semper sede tellus in ultrices. Nam hendrerit elit vel urna.</p>
+                        <div className=" col-sm-12 col-md-12 col-lg-7">
+                            <div className="section-head-content">
+                                <p>Through gaining experience in various economic periods, our team are able to identify the best opportunities whether we are in good times or bad times lorem creative awesome.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row upper16 pt-50">
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-servicve-box">
+                                <div className="service-content">
+                                    <div className="service-title-two">
+                                        <h2>24/7 Online Support</h2>
+                                    </div>
+                                    <div className="service-icon">
+                                        <span className="flaticon-24h"></span>
+                                    </div>
+                                    <div className="service-conent-text">
+                                        <p>Lorem ipsum dolor sit amet dolore consectetur adipiscing elit, sed do eiusmod tempor incididunt utere labor magna aliqua.</p>
                                     </div>
                                 </div>
-                                <div className="choose-us-content-container">
-                                    <div className="single-content  pb-25  pt-35 d-flex">
-                                        <div className="content-single-icon">
-                                            <i className="flaticon-process"></i>
-                                        </div>
-                                        <div className="single-content-inner">
-                                            <h5 className="inner-content-title pb-15 text-white">Product Designs</h5>
-                                            <p>Skilled professionals are always ready to provide reliable services to our clients!</p>
-                                        </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-servicve-box">
+                                <div className="service-content">
+                                    <div className="service-title-two">
+                                        <h2>Experienced Engineers</h2>
                                     </div>
-                                    <div className="single-content  pb-25 d-flex">
-                                        <div className="content-single-icon">
-                                            <i className="flaticon-system"></i>
-                                        </div>
-                                        <div className="single-content-inner">
-                                            <h5 className="inner-content-title pb-15 text-white">Big Data & Analytics</h5>
-                                            <p>Branches are situated in major metro cities and overseas, always open for you!</p>
-                                        </div>
+                                    <div className="service-icon">
+                                        <span className="flaticon-web"></span>
                                     </div>
-                                    <div className="single-content  pb-25 d-flex">
-                                        <div className="content-single-icon">
-                                            <i className="flaticon-next-1"></i>
-                                        </div>
-                                        <div className="single-content-inner">
-                                            <h5 className="inner-content-title pb-15 text-white">Maintain App Data</h5>
-                                            <p>Skilled professionals are always ready to provide reliable services to our clients!</p>
-                                        </div>
+                                    <div className="service-conent-text">
+                                        <p>Lorem ipsum dolor sit amet dolore consectetur adipiscing elit, sed do eiusmod tempor incididunt utere labor magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <div className="single-servicve-box">
+                                <div className="service-content">
+                                    <div className="service-title-two">
+                                        <h2>Committed to Quality</h2>
+                                    </div>
+                                    <div className="service-icon">
+                                        <span className="flaticon-time"></span>
+                                    </div>
+                                    <div className="service-conent-text">
+                                        <p>Lorem ipsum dolor sit amet dolore consectetur adipiscing elit, sed do eiusmod tempor incididunt utere labor magna aliqua.</p>
                                     </div>
                                 </div>
                             </div>

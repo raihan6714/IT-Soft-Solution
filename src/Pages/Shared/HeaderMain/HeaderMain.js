@@ -11,7 +11,7 @@ const HeaderMain = () => {
                             <Link to="/"><span className="logo-txt"></span></Link>
                         </div>
                         <div className="logo">
-                            <Link to="index.html">
+                            <Link to="/">
                                 <img src="assets/images/logo.png" alt="logo" />
                                 <img src="assets/images/footer/logo2.png" alt="logo" />
                             </Link>
@@ -19,49 +19,38 @@ const HeaderMain = () => {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link to="/">Home</Link>
+                                    <Link to="/home">Home</Link>
                                 </li>
                                 <li>
                                     <Link to="/">Company<i className="fas fa-angle-down"></i><span><i className="fas fa-angle-right"></i></span></Link>
                                     <ul className="sub-menu">
-                                        <li><Link to="about-us.html">About Us </Link></li>
-                                        <li><Link to="#">Elements <i className="fas fa-angle-right"></i> </Link>
-                                            <ul className="inner-sub-menu">
-                                                <li><Link to="info-box.html">Info Box</Link></li>
-                                                <li><Link to="services.html">Services</Link></li>
-                                                <li><Link to="teams.html">Teams</Link></li>
-                                                <li><Link to="testimonial.html">Testimonial</Link></li>
-                                                <li><Link to="pricing.html">Pricing</Link></li>
-                                                <li><Link to="faq.html">FAQ</Link></li>
-                                                <li><Link to="project.html">Project</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li><Link to="why-choose-us.html">Why Choose Us </Link></li>
-                                        <li><Link to="our-services.html">Our Services </Link></li>
-                                        <li><Link to="single-service.html">Single Services </Link></li>
-                                        <li><Link to="our-team.html">Our Team </Link></li>
-                                        <li><Link to="single-team.html">Single Team </Link></li>
-                                        <li><Link to="contact-us.html">Contact Us </Link></li>
-                                        <li><Link to="pricing.html">Pricing </Link></li>
-                                        <li><Link to="faq.html">FAQ </Link></li>
+                                        <li><Link to="/about-us">About Us </Link></li>
+                                        <li><Link to="/why-choose-us">Why Choose Us </Link></li>
+                                        <li><Link to="/our-services">Our Services </Link></li>
+                                        <li><Link to="/single-service">IT Consultancy </Link></li>
+                                        <li><Link to="/our-team">Our Team </Link></li>
+                                        <li><Link to="/team-details">Team Details </Link></li>
+                                        <li><Link to="/contact">Contact Us </Link></li>
+                                        <li><Link to="/pricing">Pricing </Link></li>
+                                        <li><Link to="/faq">FAQ </Link></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <Link to="#">Services<i className="fas fa-angle-down"></i><span><i className="fas fa-angle-right"></i></span></Link>
                                     <ul className="sub-menu">
-                                        <li><Link to="it-services.html">IT Services</Link></li>
-                                        <li><Link to="web-development.html">Web Development</Link></li>
-                                        <li><Link to="single-service.html">Single Service</Link></li>
+                                        <li><Link to="/it-services">IT Services</Link></li>
+                                        <li><Link to="/web-development">Web Development</Link></li>
+                                        <li><Link to="/single-service">IT Consultancy</Link></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <Link to="/">Projects</Link>
+                                    <Link to="/portfolio">Projects</Link>
                                 </li>
                                 <li>
-                                    <Link to="/">Blog</Link>
+                                    <Link to="/blog">Blog</Link>
                                 </li>
                                 <li>
-                                    <Link to="/">Contact</Link>
+                                    <Link to="/contact">Contact</Link>
                                 </li>
                             </ul>
                             <div className="nav-btn  d-sm-none d-md-none d-lg-inline-block">

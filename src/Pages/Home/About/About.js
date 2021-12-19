@@ -17,7 +17,7 @@ const About = () => {
                             <div className="about-content-container pl-30">
                                 <div className="section-head-container">
                                     <div className="section-head">
-                                        <h5> About Company</h5>
+                                        <h5>// About Company</h5>
                                         <h3>We Deal With The Aspects of</h3>
                                         <h2>Professional <span>IT Services</span></h2>
                                         <span className="section-head-bar"></span>
