@@ -1,5 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {
+    Outlet,
+    Link
+} from "react-router-dom";
 
 const Portfolios = () => {
     return (
@@ -21,7 +24,11 @@ const Portfolios = () => {
                             <div className="portfolio_nav">
                                 <div className="portfolio_menu">
                                     <ul className="menu-filtering">
-                                        <li className="current_menu_item" data-filter="*">All Works </li>
+                                        <li className="current_menu_item" data-filter="*">
+                                            <Link to={`/portfolio/all-works`}>
+                                                All Works
+                                            </Link>
+                                        </li>
                                         <li data-filter=".branding">Branding</li>
                                         <li data-filter=".design">Design</li>
                                         <li data-filter=".development">Development</li>

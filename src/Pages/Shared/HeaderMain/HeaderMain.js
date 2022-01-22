@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 const HeaderMain = () => {
@@ -8,13 +9,13 @@ const HeaderMain = () => {
                 <div className="container">
                     <div className="menu-wrapper">
                         <div className="m-logo">
-                            <Link to="/"><span className="logo-txt"></span></Link>
+                            <NavLink to="/"><span className="logo-txt"></span></NavLink>
                         </div>
                         <div className="logo">
-                            <Link to="/">
+                            <NavLink to="/">
                                 <img src="assets/images/logo.png" alt="logo" />
                                 <img src="assets/images/footer/logo2.png" alt="logo" />
-                            </Link>
+                            </NavLink>
                         </div>
                         <nav>
                             <ul>
@@ -54,7 +55,7 @@ const HeaderMain = () => {
                                 </li>
                             </ul>
                             <div className="nav-btn  d-sm-none d-md-none d-lg-inline-block">
-                                <Link to="/">Get Consultant</Link>
+                                <Link to="/login">Login</Link>
                             </div>
                             <div className="mm-social-icon d-lg-none mt-40">
                                 <span><Link to="#"><i className="fab fa-facebook-f"></i></Link></span>
